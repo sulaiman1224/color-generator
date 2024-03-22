@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 30rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(33, 32, 32);
+}
